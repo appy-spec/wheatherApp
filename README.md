@@ -40,7 +40,7 @@ A responsive Weather Application built using *HTML, CSS, and JavaScript, integra
 
 ## 🔗 GitHub Repository
 
-[GitHub Link]()
+[GitHub Link](https://github.com/appy-spec/wheatherApp)
 
 ## 📱 Responsive Design
 
