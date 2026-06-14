@@ -10,6 +10,7 @@ header {
     color: white;
     padding: 1em;
     text-align: center;
+    width: 100%
 }
 
 header input, header button {
@@ -38,7 +39,8 @@ footer {
     background-color: #4a90e2;
     color: white;
     text-align: center;
-    padding: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
     position: fixed;
     width: 100%;
     bottom: 0;
