@@ -51,6 +51,7 @@ footer {
 .container {
     display: flex;
     width: 100%;
+    gap:4px;
 }
 
 .box {
@@ -58,3 +59,9 @@ footer {
     flex: 1; /* Both divs take equal space */
 }
 
+@media(max-width: 380px){
+
+    .container {
+        gap: 8px;
+    }
+}
