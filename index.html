@@ -1,46 +1,49 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather Dashboard</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <h1>Weather Dashboard</h1>
-        <input type="text" id="location" placeholder="Enter city name">
-        <button id="searchBtn">Search</button>
-    </header>
-    <main>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav>
+      <h1>Weather Dashboard</h1>
+      <input type="text" id="location" placeholder="Enter city name" />
+      <button id="searchBtn">Search</button>
+    </nav>
+
+    <div class="main">
+      <div>
         <section id="currentWeather">
-            <h2>Current Weather</h2>
-            <div class="container">
-                <div id="weatherDetails">
-                    <p id="temp">Temperature: </p>
-                    <p id="condition">Condition: </p>
-                    <p id="humidity">Humidity: </p>
-                    <p id="wind">Wind Speed: </p>
-                </div>
+          <h2>Current Weather</h2>
+          <div class="container">
+            <div id="weatherDetails">
+              <p id="temp">Temperature:</p>
+              <p id="condition">Condition:</p>
+              <p id="humidity">Humidity:</p>
+              <p id="wind">Wind Speed:</p>
             </div>
+          </div>
         </section>
         <section id="forecast">
-            <div class="container">
-                <div class="box">
-                    <p id="day">Day:</p>
-                    <img src="" id="dayImage">
-                </div>
-                <div class="box">
-                    <p id="night">Night:</p>
-                    <img src="" id="nightImage">
-
-                </div>
+          <div class="container">
+            <div class="box">
+              <p id="day">Day:</p>
+              <img src="" id="dayImage" />
             </div>
+            <div class="box">
+              <p id="night">Night:</p>
+              <img src="" id="nightImage" />
+            </div>
+          </div>
         </section>
-    </main>
-    <footer>
+      </div>
+
+      <footer>
         <p>Weather data provided by Open-Meteo</p>
-    </footer>
+      </footer>
+    </div>
     <script src="index.js"></script>
-</body>
+  </body>
 </html>
