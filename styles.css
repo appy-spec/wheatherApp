@@ -1,27 +1,22 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
     background-color: #f0f8ff;
+    width:100vw;
+    height:100vh;
+
 }
 
-header {
+nav {
     background-color: #4a90e2;
     color: white;
     padding: 1em;
     text-align: center;
-    width: 100%
 }
 
-header input, header button {
+nav input, header button {
     margin-top: 1em;
     padding: 0.5em;
-}
-
-main {
-    padding: 1em;
-    width:100vw;
-    height:100vh;
 }
 
 section {
@@ -31,19 +26,26 @@ section {
 #currentWeather, #forecast {
     border: 1px solid #ddd;
     border-radius: 8px;
-    padding: 1em;
+    padding: 2em;
+    margin: 1em;
     background-color: #fff;
+}
+
+.main{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 87%;
 }
 
 footer {
     background-color: #4a90e2;
     color: white;
     text-align: center;
+    width: 100%;
     padding-top: 1em;
     padding-bottom: 1em;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
 }
 
 .container {
@@ -52,7 +54,7 @@ footer {
 }
 
 .box {
+
     flex: 1; /* Both divs take equal space */
-   
 }
 
